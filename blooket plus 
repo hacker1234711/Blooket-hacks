@@ -1,0 +1,297 @@
+JavaScript:(async () => {
+    if (String(window.fetch.call).includes("native")) {
+        var e = window.fetch.call;
+        window.fetch.call = function() {
+            if (!arguments[1].includes("s.blooket.com/rc")) return e.apply(this, arguments);
+            console.log("You tried to get caught cheating!")
+        }
+    } else console.log("already run");
+    if (console.log("%c Blooket Cheats Plus %c\n        By DannyDan0167 on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c        Mobilegui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c        Star the github repo!%c  https://github.com/DannyDan0167/Blooket-Cheats-Plus", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+        for (var t = document.createElement("iframe"), o = (document.body.appendChild(t), window.clearId = window.setInterval(() => {}, 0)); o--;) t.contentWindow.clearInterval.call(window, o);
+        t.remove()
+    } {
+        var t, o = document.createElement("iframe"),
+            o = (document.body.append(o), window.alert = o.contentWindow.alert.bind(window), window.prompt = o.contentWindow.prompt.bind(window), window.confirm = o.contentWindow.confirm.bind(window), o.remove(), (e, t = {}) => Object.entries(t).forEach(([t, o]) => e.style[t] = o));
+        (t = document.createElement("style")).innerHTML = "details > summary { cursor: pointer; transition: 0.15s; list-style: none; } details > summary:hover { color: hsl(0, 0%, 50%) } details > summary::-webkit-details-marker { display: none; } details summary ~ * { animation: sweep .5s ease-in-out; } @keyframes sweep { 0%    {opacity: 0; transform: translateY(-10px)} 100%  {opacity: 1; transform: translateY(0)} } .cheat { border: none; background: hsl(0, 0%, 20%); padding: 5px; margin: 3px; width: 60%; color: hsl(0, 0%, 100%); transition: 0.2s; border-radius: 5px; cursor: pointer; } .cheat:hover { background: hsl(0, 0%, 30%); }";
+        let a = document.createElement("div");
+        [...document.querySelectorAll("#JODMOBILE")].forEach(e => e.remove()), a.id = "JODMOBILE", a.appendChild(t), o(a, {
+            width: "400px",
+            background: "hsl(0, 0%, 10%)",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
+            borderRadius: "10px",
+            position: "absolute",
+            textAlign: "center",
+            fontFamily: "Nunito",
+            color: "white",
+            overflow: "hidden",
+            top: "50px",
+            left: "50px"
+        });
+        var r, n, i = 0,
+            s = 0,
+            t = (a.onpointerdown = (e = window.event) => {
+                e.preventDefault(), i = e.clientX, s = e.clientY, document.onpointerup = () => {
+                    document.onpointerup = null, document.onpointermove = null
+                }, document.onpointermove = e => {
+                    (e = e || window.event).preventDefault(), r = i - e.clientX, n = s - e.clientY, i = e.clientX, s = e.clientY, a.style.top = a.offsetTop - n + "px", a.style.left = a.offsetLeft - r + "px"
+                }
+            }, document.createElement("div")),
+            l = (a.appendChild(t), o(t, {
+                width: "100%",
+                height: "35px",
+                paddingTop: "2px",
+                fontSize: "1.5rem",
+                textAlign: "center"
+            }), t.innerHTML = 'Blooket Cheats <span style="font-size: 0.75rem">v13.20.00</span>', document.createElement("button")),
+            l = (t.appendChild(l), o(l, {
+                background: "red",
+                height: "45px",
+                width: "45px",
+                border: "none",
+                cursor: "pointer",
+                position: "absolute",
+                top: "-10px",
+                right: "-10px",
+                fontSize: "1.5rem",
+                borderRadius: "10px",
+                fontFamily: "Nunito",
+                fontWeight: "bolder",
+                paddingTop: "10px",
+                paddingRight: "15px"
+            }), l.innerText = "X", l.onclick = () => {
+                $(), a.remove(), removeEventListener("keypress", f)
+            }, document.createElement("button"));
+        t.appendChild(l), o(l, {
+            background: "#444444",
+            height: "45px",
+            width: "45px",
+            border: "none",
+            cursor: "pointer",
+            position: "absolute",
+            top: "-10px",
+            left: "-10px",
+            fontSize: "1.5rem",
+            borderRadius: "10px",
+            fontFamily: "Nunito",
+            fontWeight: "bolder",
+            paddingTop: "10px",
+            paddingLeft: "15px"
+        }), l.innerText = "-", l.onclick = () => c.hidden = !c.hidden;
+        let c = document.createElement("div"),
+            d = (t = document.createElement("div"), c.appendChild(t), a.appendChild(c), t.innerHTML = `<span id="curPageEl">${_(!0)?"Current gamemode: "+_(!0):"No game detected"}</span><br><span>(Press E to hide)</span><br>`, t.style.display = "block", t.style.margin = "10px", document.body.append(a), o = document.createElement("div"), c.appendChild(o), o.style.fontSize = "0.9rem", o.style.paddingBottom = "5px", {
+                global: [{
+                    name: "Auto Answer (Toggle)",
+                    description: "Toggles auto answer on",
+                    type: "toggle",
+                    enabled: (o.innerHTML = '<span><a target="blank" href="https://discord.gg/SAHpM8hd">Discord</a><br/><a target="blank" href="https://github.com/DannyDan0167/Blooket-Cheats-Plus/">GitHub - DannyDan0167</a></span>', !1),
+                    data: null,
+                    run: function() {
+                        this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                            let {
+                                state: {
+                                    question: e,
+                                    stage: t,
+                                    feedback: o
+                                },
+                                props: {
+                                    client: {
+                                        question: a
+                                    }
+                                }
+                            } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                            try {
+                                "typing" != e.qType ? ("feedback" === t || o ? document.querySelector('[class*="feedback"]')?.firstChild : [...document.querySelectorAll('[class*="answerContainer"]')][(e || a).answers.map((t, o) => (e || a).correctAnswers.includes(t) ? o : null).filter(e => null != e)[0]])?.click?.() : Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(e.answers[0])
+                            } catch {}
+                        }, 50))
+                    }
+                }, {
+                    name: "Highlight Answers (Toggle)",
+                    description: "Toggles highlight answers on",
+                    type: "toggle",
+                    enabled: !1,
+                    data: null,
+                    run: function() {
+                        this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                            let {
+                                stateNode: {
+                                    state: e,
+                                    props: t
+                                }
+                            } = Object.values(function e(t = document.querySelector("body>div")) {
+                                return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }())[1].children[0]._owner;
+                            [...document.querySelectorAll('[class*="answerContainer"]')].forEach((o, a) => {
+                                (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[a]) ? o.style.backgroundColor = "rgb(0, 207, 119)" : o.style.backgroundColor = "rgb(189, 15, 38)"
+                            })
+                        }, 50))
+                    }
+                }, {
+                    name: "Subtle Highlight Answers (Toggle)",
+                    description: "Toggles subtle highlight answers on",
+                    type: "toggle",
+                    enabled: !1,
+                    data: null,
+                    run: function() {
+                        this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                            let {
+                                stateNode: {
+                                    state: e,
+                                    props: t
+                                }
+                            } = Object.values(function e(t = document.querySelector("body>div")) {
+                                return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }())[1].children[0]._owner;
+                            [...document.querySelectorAll('[class*="answerContainer"]')].forEach((o, a) => {
+                                (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[a]) && (o.style.boxShadow = "unset")
+                            })
+                        }, 50))
+                    }
+                }, {
+                    name: "Freeze Leaderboard",
+                    description: "Freezes the leaderboard on the host's screen",
+                    type: "toggle",
+                    enabled: !1,
+                    data: null,
+                    run: function() {
+                        if (this.enabled) this.enabled = !1, clearInterval(this.data), this.data = null;
+                        else {
+                            this.enabled = !0;
+                            let e = () => {
+                                var e = Object.values(function e(t = document.querySelector("#app")) {
+                                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                                }())[1].children[0]._owner.stateNode;
+                                e.props.liveGameController.setVal({
+                                    path: `c/${e.props.client.name}/tat/Freeze`,
+                                    val: "Frozen"
+                                })
+                            };
+                            this.data = setInterval(e, 50)
+                        }
+                    }
+                }, {
+                    name: "Percent Auto Answer",
+                    description: "Answers questions correctly or incorrectly depending on the goal grade given (Disable and re-enable to update goal)",
+                    type: "toggle",
+                    enabled: !1,
+                    data: null,
+                    run: function() {
+                        if (this.enabled) this.enabled = !1, clearInterval(this.data), this.data = null;
+                        else {
+                            this.enabled = !0;
+                            let e = parseFloat(prompt("What grade do you want to get from this set? (0-100)"));
+                            for (;
+                                "number" != typeof e || isNaN(e);) e = parseFloat(prompt("What grade do you want to get from this set? (0-100)\nInvalid Number"));
+                            let {
+                                stateNode: t
+                            } = Object.values(function e(t = document.querySelector("body>div")) {
+                                return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }())[1].children[0]._owner;
+                            this.data = setInterval(e => {
+                                try {
+                                    let o = t.state.question || t.props.client.question;
+                                    if ("feedback" == t.state.stage || t.state.feedback) return document.querySelector('[class*="feedback"], [id*="feedback"]')?.firstChild?.click?.();
+                                    if (document.querySelector("[class*='answerContainer']") || document.querySelector("[class*='typingAnswerWrapper']")) {
+                                        let a = 0,
+                                            r = 0;
+                                        for (let n in t.corrects) a += t.corrects[n];
+                                        for (let i in t.incorrects) r += t.incorrects[i];
+                                        r += a;
+                                        let s = 0 == r || Math.abs(a / (r + 1) - e) >= Math.abs((a + 1) / (r + 1) - e);
+                                        if ("typing" != t.state.question.qType) {
+                                            let l = document.querySelectorAll("[class*='answerContainer']");
+                                            for (let c = 0; c < l.length; c++) {
+                                                let d = o.correctAnswers.includes(o.answers[c]);
+                                                if (s && d || !s && !d) return l[c]?.click?.()
+                                            }
+                                            l[0].click()
+                                        } else Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(s ? o.answers[0] : Math.random().toString(36).substring(2))
+                                    }
+                                } catch {}
+                            }, 100, (e ?? 100) / 100)
+                        }
+                    }
+                }, {
+                    name: "Auto Answer",
+                    description: "Click the correct answer for you",
+                    run: function() {
+                        let {
+                            state: {
+                                question: e,
+                                stage: t,
+                                feedback: o
+                            },
+                            props: {
+                                client: {
+                                    question: a
+                                }
+                            }
+                        } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                        try {
+                            "typing" != e.qType ? ("feedback" === t || o ? document.querySelector('[class*="feedback"]')?.firstChild : [...document.querySelectorAll('[class*="answerContainer"]')][(e || a).answers.map((t, o) => (e || a).correctAnswers.includes(t) ? o : null).filter(e => null != e)[0]])?.click?.() : Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(e.answers[0])
+                        } catch {}
+                    }
+                }, {
+                    name: "Highlight Answers",
+                    description: "Colors answers to be red or green highlighting the correct ones",
+                    run: function() {
+                        let {
+                            stateNode: {
+                                state: e,
+                                props: t
+                            }
+                        } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }())[1].children[0]._owner;
+                        [...document.querySelectorAll('[class*="answerContainer"]')].forEach((o, a) => {
+                            (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[a]) ? o.style.backgroundColor = "rgb(0, 207, 119)" : o.style.backgroundColor = "rgb(189, 15, 38)"
+                        })
+                    }
+                }, {
+                    name: "Subtle Highlight Answers",
+                    description: "Removes the shadow from correct answers",
+                    run: function() {
+                        let {
+                            stateNode: {
+                                state: e,
+                                props: t
+                            }
+                        } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }())[1].children[0]._owner;
+                        [...document.querySelectorAll('[class*="answerContainer"]')].forEach((o, a) => {
+                            (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[a]) && (o.style.boxShadow = "unset")
+                        })
+                    }
+                }, {
+                    name: "Spam Buy Blooks",
+                    description: "Opens a box an amount of times",
+                    run: async function() {
+                        let e = document.createElement("iframe");
+                        document.body.append(e), window.alert = e.contentWindow.alert.bind(window), window.prompt = e.contentWindow.prompt.bind(window), window.confirm = e.contentWindow.confirm.bind(window), e.remove();
+                        let {
+                            stateNode: t
+                        } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }())[1].children[0]._owner, o = Array.from(document.querySelectorAll("[class*='packsWrapper'] > div")).reduce((e, t) => (t.querySelector("[class*='blookContainer'] > img") || (e[t.querySelector("[class*='packImgContainer'] > img").alt] = parseInt(t.querySelector("[class*='packBottom']").textContent)), e), {}), a = prompt('Which box do you want to open? (ex: "Ice Monster")').split(" ").map(e => e.charAt(0).toUpperCase() + e.slice(1).toLowerCase()).join(" "), r = o[a];
+                        if (!r) return alert("I couldn't find that box!");
+                        let n = Math.min(Math.floor(t.state.tokens / r), parseInt(`0${prompt("How many boxes do you want to open?")}`));
+                        if (0 == n) return alert("You do not have enough tokens!");
+                        let i = confirm("Would you like to show blooks as unlocking?"),
+                            s = {},
+                            l = Date.now();
+                        for (let c = 0; c < n; c++) {
+                            await t.buyPack(!0, a), s[t.state.unlockedBlook] ||= 0, s[t.state.unlockedBlook]++;
+                            let d = Date.now();
+                            l += Date.now() - d, t.setState({
+                                canOpen: !0,
+                                currentPack: "",
+                                opening: i,
+                                doneOpening: i,
+                                openPack: i
+                            }), clearTimeout(t.canOpenTimeout)
+                        }
+                        await new Promise(e => setTimeout(e)), alert(`(${Date.now()-l}ms) Results: ${Object.entries(s).map(([e,t])=>`    ${e} ${t}`).join(` `)}`)
+                    }
+                }, {
+                    name: "Remove Name Limit",
+                    description: "Sets the name li
